@@ -31,6 +31,7 @@
     color: #111;
 }
 
+
 .product__price {
     margin-top: 5px;
 
@@ -39,4 +40,8 @@
 .product__info {
     height: 100px;
     margin-bottom: 15px;
+}
+
+button.clicked {
+  outline: 2px solid blue;
 }
