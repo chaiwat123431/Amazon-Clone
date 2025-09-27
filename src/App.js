@@ -10,7 +10,10 @@ function App() {
     <Router>
       <div className="app">
         <Header />
+
         <Routes>
+          {/* Page Login */}
+          <Route path="/login" element={<h1>Login page</h1>} />
           {/* Page Checkout */}
           <Route
             path="/checkout"

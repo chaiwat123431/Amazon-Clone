@@ -25,12 +25,22 @@
 
 .product > button {
     background: #f0c14b;
-    border: 1px solid;
+    border: 2px solid transparent; 
     margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: border-color 0.2s ease, transform 0.1s ease;
 }
 
+.product > button:hover {
+    border: 2px solid #0073e6; 
+    transform: scale(1.02); 
+}
+
+.product > button.clicked {
+    border-color: blue; 
+}
 
 .product__price {
     margin-top: 5px;
@@ -42,6 +52,4 @@
     margin-bottom: 15px;
 }
 
-button.clicked {
-  outline: 2px solid blue;
-}
+

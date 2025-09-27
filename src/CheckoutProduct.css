@@ -15,10 +15,31 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.checkoutProduct__info > button:hover {
+  border-color: #007185; 
+  background: #ddb347;   
+}
+
+.checkoutProduct__info > button:focus {
+  outline: none;          
+  border: 2px solid #007185; 
 }
 
 .checkoutProduct__image {
     object-fit: contain;
     width: 180px;
     height: 180px;
+}
+
+.checkoutProduct__rating {
+    display: flex;
+}
+
+.checkoutProduct__title {
+    font-size: 17px;
+    font-weight: 800;
 }
